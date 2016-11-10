@@ -1,0 +1,79 @@
+body, div, h1, img, p, ul, li, a, span {
+  padding:0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  /* background: url('task-images/initial.png') no-repeat;*/
+  font-family: Arial, Freesans, sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  width: 960px;
+  padding: 15px
+}
+
+#wrapper > div {
+  border-radius: 5px;
+  padding: 10px 0px 10px 10px;
+  background-color: #ccc;
+  display: inline-block;
+  width: 690px;
+}
+
+#wrapper > div: after{
+  height: 0;
+  display: block;
+  content: "";
+  clear:both;
+}
+
+#wrapper > div.holder {
+  float: left;
+}
+
+#wrapper > div.holder.img{
+  width: 550px;
+  border-radius: 5px;
+}
+
+#wrapper > div.playlist {
+  float: left;
+}
+
+#wrapper > div.playlist ul{
+  padding: 0 10px;
+}
+
+#wrapper > div.playlist ul li {
+  width: 120px;
+  height: 101px;
+  padding: 5px 0;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+#wrapper > div.playlist ul li a {
+  display: block;
+}
+
+#wrapper > div.playlist ul li a img {
+  margin: 0 17px;
+  border-radius: 10px;
+  display: block;
+}
+
+#wrapper > div.playlist ul li a span {
+  margin: 0 9px;
+  font-weight: bold;
+}

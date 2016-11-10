@@ -1,0 +1,107 @@
+body, div, h1, h2, h3, img, p, ul, li, a, span {
+  padding:0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  width: 960px;
+  padding: 20px 22px;
+}
+
+#wrapper > div {
+  display: inline-block;
+  width: 138px;
+  border-top: 2px solid black
+  float: left;
+  margin-left: -2px;
+  height: 250px;
+  padding: 5px;
+  letter-spacing: -0.2px;
+  line-height: 18px;
+}
+
+#wrapper > div:nth-child(2n){
+  height: 270px;
+}
+
+#wrapper > div hgroup{
+  padding: 0 0 0 38px;
+  height: 61px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+#wrapper > div:nth-child(1) hgroup{
+  /* background: url() no-repeat*/
+  background-position: -1px 9px
+}
+
+#wrapper > div:nth-child(2) hgroup{
+  /* background: url() no-repeat*/
+  background-position: -1px 9px
+}
+
+#wrapper > div:nth-child(3) hgroup{
+  /* background: url() no-repeat*/
+  background-position: -1px 9px
+}
+
+#wrapper > div:nth-child(4) hgroup{
+  /* background: url() no-repeat*/
+  background-position: -1px 9px
+}
+
+#wrapper > div:nth-child(5) hgroup{
+  /* background: url() no-repeat*/
+  background-position: -1px 9px
+}
+
+#wrapper > div:nth-child(6) hgroup{
+  /* background: url() no-repeat*/
+  background-position: -1px 9px
+}
+
+#wrapper > div hgroup h2{
+  padding-top: 6px;
+  font-size: 1.06rem;
+}
+
+#wrapper > div hgroup h3{
+  padding-top: 1px;
+  font-size: 1.06rem;
+}
+
+#wrapper > div p {
+  line-height: 19px;
+  letter-spacing: -0.3px;
+}
+
+#wrapper > div > div {
+  padding-top: 5px;
+}
+
+#wrapper > div > div:nor(.yellowbox) a {
+  color: red;
+  text-decoration: none;
+  display: block;
+  margin-top: 1px;
+  letter-spacing: -0.3px;
+}
+
+#wrapper a span{
+  text-transform: uppercase;
+}
+
+.yellowbox {
+  border: 1px solid yellow;
+  background-color: orange;
+}

@@ -1,0 +1,89 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+header{
+  height: 97px;
+  background-image: url('images/asdad.png');
+  border-bottom: green 5px solid;
+    )
+}
+
+#title {
+  float: left;
+  margin-left: 20px;
+}
+
+#title h1{
+  margin: 0;
+  padding: 0;
+  color: #EEFFEE;
+  font-size: 34px;
+  margin-top: 20px;
+}
+
+#titile h2{
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+#nav {
+  float: right;
+  display: inline-block;
+}
+
+#nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: 28px;
+  margin-top: 45px;
+}
+
+#nav ul li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  margin-left: 20px;
+  color: orange;
+  font-weight: bold;
+}
+
+#content {
+  float: left;
+  width: 760px;
+}
+
+#content h1 {
+  color: brown;
+  margin-top: 22px;
+  font-size: 30px;
+}
+
+#aside {
+  width: 200px;
+  float: right;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: green;
+  font-weight: bold;
+}
+
+#aside input {
+  width: 155px;
+}
